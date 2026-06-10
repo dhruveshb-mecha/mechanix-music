@@ -1,0 +1,65 @@
+{
+  "@@locale": "en",
+
+  "nowPlaying": "Now Playing",
+  "search": "Search",
+  "tracks": "Tracks",
+  "browseMusicFolders": "Browse music folders",
+  "play": "Play",
+  "more": "More",
+
+  "quickHome": "Home",
+  "quickRecents": "Recents",
+  "quickDownloads": "Downloads",
+  "quickDocuments": "Documents",
+  "hardDrive": "Hard Drive",
+  "root": "Root",
+  "browseMusicBreadcrumb": "Browse music",
+
+  "localFile": "Local File",
+  "unknown": "Unknown",
+
+  "noSelection": "No selection",
+  "noTracksAvailable": "No music tracks available",
+  "noFilesFound": "No audio files or folders found",
+  "retry": "Retry",
+
+  "tooltipCancel": "Cancel selection",
+  "tooltipSelectAll": "Select all",
+  "tooltipSave": "Save to library",
+
+  "selectedCount": "{count} selected",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+
+  "savingSongs": "Saving {count} song(s) to library...",
+  "@savingSongs": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+
+  "queuedSongs": "Queued {count} song(s) for library import",
+  "@queuedSongs": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+
+  "errorSyncFailed": "Failed to sync the music library.",
+  "errorLoadFailed": "Failed to load tracks.",
+  "errorAddSongsFailed": "Failed to add selected songs.",
+  "errorUnknown": "Something went wrong",
+  "errorOccurred": "An error occurred",
+  "errorPlaybackFileDeleted": "File is deleted",
+  "errorPlaybackUnknown": "Something went wrong"
+}
