@@ -10,13 +10,25 @@ description: Mechanix Music application
 homepage: https://github.com/mecha-org/mechanix-music.git
 license: BSD
 
+overrides:
+  rpm:
+    depends:
+      - mechanix-flutter-engine = 3.47.0
+  deb:
+    depends:
+      - "mechanix-flutter-engine (= 3.47.0)"
+
 contents:
   - src: ./stage/bundle/mechanix_music
     dst: /usr/share/mechanix/mechanix-music/mechanix_music
     file_info:
       mode: 0755
-  - src: ./stage/bundle/lib
-    dst: /usr/share/mechanix/mechanix-music/lib
+  - src: ./stage/bundle/lib/libapp.so
+    dst: /usr/share/mechanix/mechanix-music/lib/libapp.so
+  - src: ./stage/bundle/lib/libaudioplayers_elinux_plugin.so
+    dst: /usr/share/mechanix/mechanix-music/lib/libaudioplayers_elinux_plugin.so
+  - src: ./stage/bundle/lib/libobjectbox.so
+    dst: /usr/share/mechanix/mechanix-music/lib/libobjectbox.so
   - src: ./stage/bundle/data
     dst: /usr/share/mechanix/mechanix-music/data
   - src: ./packaging/nfpm/scripts/launcher.sh
